@@ -1,0 +1,103 @@
+header {
+  background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+  height: 100vh;
+}
+header img {
+  background-color: black;
+}
+header ul .clr-orange {
+  color: orangered;
+}
+header ul a {
+  text-decoration: none;
+  color: black;
+}
+header ul a:hover {
+  color: orangered;
+  transition-duration: 0.2s;
+}
+header ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+header .text-1 {
+  background-color: black;
+  width: 25%;
+  margin: 150px auto 0;
+}
+header .text-2 {
+  font-size: 37px;
+  width: 40%;
+  margin: 0 auto;
+  background-color: orangered;
+}
+header .btn {
+  width: 160px;
+  height: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+}
+header .btn:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.5s;
+}
+nav {
+  padding-top: 50px;
+}
+
+#best .bestquality {
+  background-image: url(https://megaone.acrothemes.com/cafe/images/services-image.jpg);
+  width: 690px;
+  height: 500px;
+  margin-left: 150px;
+}
+#best .qual {
+  width: 280px;
+  font-size: 30px;
+  margin-top: 270px;
+  margin-left: 0px;
+  transform: translateX(200px);
+}
+#best .food {
+  width: 400px;
+  font-size: 30px;
+  transform: translateX(200px);
+  background-color: orangered;
+}
+#best .col-7 .light {
+  cursor: pointer;
+}
+#best .col-7 .light .bulb {
+  font-size: 120px;
+}
+#best .col-7 .light p {
+  font-size: 18px;
+  text-align: justify;
+  width: 300px;
+}
+#best .col-7 .heart {
+  margin-top: 100px;
+  cursor: pointer;
+}
+#best .col-7 .heart i {
+  font-size: 120px;
+}
+#best .col-7 .heart p {
+  text-align: left;
+  width: 300px;
+  font-size: 18px;
+}
+#best .bag {
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#best .bag i {
+  font-size: 120px;
+}
+#best .bag p {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

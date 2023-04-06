@@ -1,0 +1,64 @@
+#best {
+    .bestquality {
+        background-image: url(https://megaone.acrothemes.com/cafe/images/services-image.jpg);
+        width: 690px;
+        height: 500px;
+        margin-left: 150px;
+    }
+
+    .qual {
+        width: 280px;
+        font-size: 30px;
+        margin-top: 270px;
+        margin-left: 0px;
+        transform: translateX(200px);
+    }
+
+    .food {
+        width: 400px;
+        font-size: 30px;
+        transform: translateX(200px);
+        background-color: orangered;
+    }
+
+    .col-7 {
+        .light {
+            cursor: pointer;
+
+            .bulb {
+                font-size: 120px;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: justify;
+                width: 300px;
+            }
+        }
+        .heart{
+            margin-top: 100px;
+            cursor: pointer;
+            i{
+                font-size: 120px;
+            }
+            p{
+                text-align: left;
+                width: 300px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .bag {
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        i {
+            font-size: 120px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}

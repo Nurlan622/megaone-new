@@ -1,0 +1,58 @@
+header{
+    background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+    height: 100vh ;
+    img{
+        background-color: black;
+    }
+    ul{
+        .clr-orange{
+            color: orangered;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: orangered;
+                transition-duration: 0.2s;
+            }
+        }
+        li{
+            display: inline-block;
+            padding: 1rem;
+            
+        }
+    }
+    .text-1{
+        background-color: black;
+        width: 25%;
+        margin: 150px auto 0;
+    }
+    .text-2{
+        font-size: 37px;
+        width: 40%;
+        margin: 0 auto;
+        background-color: orangered;
+    }
+    .btn{
+        width: 160px;
+        height: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        border: 0;
+        cursor: pointer;
+        &:hover{
+            background-color: black;
+            color: white;
+            transition-duration: 0.5s;
+        }
+
+    }
+    nav{
+        i{
+            
+        }
+    }
+}
+nav{
+    padding-top:50px;
+}
